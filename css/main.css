@@ -1,0 +1,301 @@
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  height: 6000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inner {
+  width: 1348px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn {
+  width: 160px;
+  height: 48px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2370c8;
+  text-align: center;
+}
+
+.title__sub {
+  font-size: 20px;
+  color: #2370c8;
+}
+
+.title__main {
+  margin-top: 19px;
+  font-size: 48px;
+  color: #262a4e;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_1280.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .inner {
+  height: 813px;
+}
+
+header .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+}
+
+
+header .top .log {
+  width: 120px;
+  height: 43.60px;
+  background-position: center;
+  background-size: cover;
+}
+
+header .top .menu {
+  display: flex;
+  margin-left: 192px;
+}
+
+header .top .menu li {
+  margin-right: 20px;
+  display: block;
+  padding: 15px;
+}
+
+header .top .menu li:last-child {
+  margin-right: 0;
+}
+
+header .top .menu li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+header .top .menu li a:hover {
+  color: salmon
+}
+
+header .top .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 65px;
+}
+
+header .top .search input {
+  width: 203px;
+  height: 47.85px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 7px 21px;
+  box-sizing: border-box;
+}
+
+header .top .search .material-icons {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 20px;
+}
+
+header .text-group {
+  position: absolute;
+  top: 249px;
+  left: 0;
+}
+
+header .text-group .title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+header .text-group .description {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+/* Service */
+.service .inner {
+  height: 507px;
+  margin-top: 156px;
+}
+
+.service .title {
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.service .title .title__sub {
+  font-size: 20px;
+  color: #2370c8;
+}
+
+.service .title .title__main {
+  font-size: 48px;
+  color: #262a4e;
+}
+
+.service .swiper-container {
+  width: 1348px;
+  height: 337px;
+}
+
+.service .swiper-container .swiper-slide {
+  display: flex;
+}
+
+.service .swiper-container .swiper-slide>img {
+  width: 425px;
+}
+
+.service .swiper-prev,
+.service .swiper-next {
+  width: 45px;
+  height: 45px;
+  background-color: #2370c8;
+  /* border: 2px solid #333; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.service .swiper-prev {
+  top: 20px;
+  right: 75px;
+}
+
+.service .swiper-next {
+  top: 20px;
+  right: 0;
+}
+
+.service .material-icons {
+  color: #fff;
+}
+
+
+/* About us */
+.about-us {
+  margin-top: 222px;
+}
+
+.about-us .inner {
+  height: 514px;
+  display: flex;
+}
+
+.about-us .image {
+  width: 587px;
+}
+
+.about-us .text-group {
+  margin-left: 128px;
+}
+
+.about-us .title {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.about-us .title .title__sub {
+  font-size: 20px;
+  color: #2370c8;
+}
+
+.about-us .title .title__main {
+  font-size: 48px;
+  color: #262a4e;
+}
+
+.about-us .text-group a {
+  margin-top: 36px;
+}
+
+
+/* Middle */
+.middle {
+  margin-top: 270px;
+  background-color: #f2f9ff;
+}
+
+.middle .inner {
+  height: 456px;
+  display: flex;
+  align-items: center;
+}
+
+.middle .inner .inner__box {
+  width: 100%;
+  height: 292px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.middle .inner__box .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 43px;
+}
+
+.middle .inner__box .item li {
+  flex: 1;
+}
+
+.middle .inner__box .item li .icons {
+  width: 79px;
+  height: 79px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.middle .inner__box .item li h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #262a4e;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.middle .inner__box .item li p {
+  font-size: 16px;
+  color: #646464;
+  text-align: center;
+  margin-top: 9px;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+  margin-top: 180px;
+}
+.portfolio .inner {
+  height: 951px;
+}
